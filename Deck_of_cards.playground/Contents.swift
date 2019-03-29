@@ -22,18 +22,18 @@ class deck{
     var cards: Array<card>
     init(cards: [card]) {
         self.cards = cards
-        while cards.count < 30 {
-            self.cards.append(card(color:"blue", roll: 0))
-            self.cards.append(card(color:"red", roll: 0))
-            self.cards.append(card(color:"green", roll: 0))
-        }
     }
     func deal(){
-        print(cards[0])
+        print(cards[Int.random(in: 0 ..< 29)])
     }
 }
 var mydeck: deck = deck(cards: [card(color: "blue", roll: 0)])
-print(mydeck)
+        while mydeck.cards.count < 30 {
+            mydeck.cards.append(card(color:"blue", roll: 0))
+            mydeck.cards.append(card(color:"red", roll: 0))
+            mydeck.cards.append(card(color:"green", roll: 0))
+        }
+mydeck.deal()
 
 
 
