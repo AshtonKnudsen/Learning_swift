@@ -18,15 +18,65 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jI-0K-bhV">
-                                <rect key="frame" x="109" y="149" width="197" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="what is the first step in ios development?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jrr-Gz-mnt">
+                                <rect key="frame" x="0.0" y="64" width="414" height="380"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQC-qT-2nM">
+                                <rect key="frame" x="20" y="528" width="374" height="100.5"/>
+                                <string key="text">Create the user interface. As we create the UI, we will get a better understanding of our application. Then we breathe life into our application.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jI-0K-bhV">
+                                <rect key="frame" x="50" y="52" width="51" height="792"/>
+                                <state key="normal" title="Answer">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="answerbuttonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j6u-Ae-OIc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UK9-wc-6pn">
+                                <rect key="frame" x="332" y="52" width="32" height="792"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextbuttonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="030-wJ-PQe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0jI-0K-bhV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1K6-Sd-Hxq"/>
+                            <constraint firstItem="0jI-0K-bhV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="3B2-AW-f6L"/>
+                            <constraint firstItem="jrr-Gz-mnt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3tm-ZA-rM0"/>
+                            <constraint firstItem="LQC-qT-2nM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Dvg-TI-mqK"/>
+                            <constraint firstItem="jrr-Gz-mnt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-194" id="FZB-ZS-MN7"/>
+                            <constraint firstItem="jrr-Gz-mnt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JaK-Ti-b6B"/>
+                            <constraint firstItem="LQC-qT-2nM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="130" id="TgO-nN-fxM"/>
+                            <constraint firstItem="UK9-wc-6pn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="VKx-7Z-whb"/>
+                            <constraint firstItem="0jI-0K-bhV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="YuK-kf-hkd"/>
+                            <constraint firstItem="jrr-Gz-mnt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="eKi-tW-zzH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jrr-Gz-mnt" secondAttribute="trailing" id="h3E-8S-06R"/>
+                            <constraint firstItem="UK9-wc-6pn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sXs-nZ-zfX"/>
+                            <constraint firstAttribute="trailing" secondItem="LQC-qT-2nM" secondAttribute="trailing" constant="20" id="tZA-81-a2K"/>
+                            <constraint firstItem="LQC-qT-2nM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ufd-QJ-9nS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UK9-wc-6pn" secondAttribute="trailing" constant="50" id="yHC-jp-aC4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="answer_label" destination="LQC-qT-2nM" id="W3o-cf-SfY"/>
+                        <outlet property="question_label" destination="jrr-Gz-mnt" id="d9p-0E-ufD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
