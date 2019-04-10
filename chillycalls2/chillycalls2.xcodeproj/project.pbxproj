@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DD66D76225C424400DFA55C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD66D75225C424400DFA55C /* AppDelegate.swift */; };
+		2DD66D78225C424400DFA55C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD66D77225C424400DFA55C /* ViewController.swift */; };
+		2DD66D7B225C424400DFA55C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD66D79225C424400DFA55C /* Main.storyboard */; };
+		2DD66D7D225C424500DFA55C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD66D7C225C424500DFA55C /* Assets.xcassets */; };
+		2DD66D80225C424500DFA55C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD66D7E225C424500DFA55C /* LaunchScreen.storyboard */; };
+		2DD66D8B225C424500DFA55C /* chillycalls2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD66D8A225C424500DFA55C /* chillycalls2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DD66D87225C424500DFA55C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DD66D6A225C424400DFA55C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DD66D71225C424400DFA55C;
+			remoteInfo = chillycalls2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DD66D72225C424400DFA55C /* chillycalls2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chillycalls2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD66D75225C424400DFA55C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DD66D77225C424400DFA55C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DD66D7A225C424400DFA55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DD66D7C225C424500DFA55C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DD66D7F225C424500DFA55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DD66D81225C424500DFA55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD66D86225C424500DFA55C /* chillycalls2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chillycalls2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD66D8A225C424500DFA55C /* chillycalls2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chillycalls2Tests.swift; sourceTree = "<group>"; };
+		2DD66D8C225C424500DFA55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DD66D6F225C424400DFA55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD66D83225C424500DFA55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DD66D69225C424400DFA55C = {
+			isa = PBXGroup;
+			children = (
+				2DD66D74225C424400DFA55C /* chillycalls2 */,
+				2DD66D89225C424500DFA55C /* chillycalls2Tests */,
+				2DD66D73225C424400DFA55C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DD66D73225C424400DFA55C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DD66D72225C424400DFA55C /* chillycalls2.app */,
+				2DD66D86225C424500DFA55C /* chillycalls2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DD66D74225C424400DFA55C /* chillycalls2 */ = {
+			isa = PBXGroup;
+			children = (
+				2DD66D75225C424400DFA55C /* AppDelegate.swift */,
+				2DD66D77225C424400DFA55C /* ViewController.swift */,
+				2DD66D79225C424400DFA55C /* Main.storyboard */,
+				2DD66D7C225C424500DFA55C /* Assets.xcassets */,
+				2DD66D7E225C424500DFA55C /* LaunchScreen.storyboard */,
+				2DD66D81225C424500DFA55C /* Info.plist */,
+			);
+			path = chillycalls2;
+			sourceTree = "<group>";
+		};
+		2DD66D89225C424500DFA55C /* chillycalls2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2DD66D8A225C424500DFA55C /* chillycalls2Tests.swift */,
+				2DD66D8C225C424500DFA55C /* Info.plist */,
+			);
+			path = chillycalls2Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DD66D71225C424400DFA55C /* chillycalls2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD66D8F225C424500DFA55C /* Build configuration list for PBXNativeTarget "chillycalls2" */;
+			buildPhases = (
+				2DD66D6E225C424400DFA55C /* Sources */,
+				2DD66D6F225C424400DFA55C /* Frameworks */,
+				2DD66D70225C424400DFA55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chillycalls2;
+			productName = chillycalls2;
+			productReference = 2DD66D72225C424400DFA55C /* chillycalls2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DD66D85225C424500DFA55C /* chillycalls2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD66D92225C424500DFA55C /* Build configuration list for PBXNativeTarget "chillycalls2Tests" */;
+			buildPhases = (
+				2DD66D82225C424500DFA55C /* Sources */,
+				2DD66D83225C424500DFA55C /* Frameworks */,
+				2DD66D84225C424500DFA55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DD66D88225C424500DFA55C /* PBXTargetDependency */,
+			);
+			name = chillycalls2Tests;
+			productName = chillycalls2Tests;
+			productReference = 2DD66D86225C424500DFA55C /* chillycalls2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DD66D6A225C424400DFA55C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ashton Knudsen";
+				TargetAttributes = {
+					2DD66D71225C424400DFA55C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					2DD66D85225C424500DFA55C = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 2DD66D71225C424400DFA55C;
+					};
+				};
+			};
+			buildConfigurationList = 2DD66D6D225C424400DFA55C /* Build configuration list for PBXProject "chillycalls2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DD66D69225C424400DFA55C;
+			productRefGroup = 2DD66D73225C424400DFA55C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DD66D71225C424400DFA55C /* chillycalls2 */,
+				2DD66D85225C424500DFA55C /* chillycalls2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DD66D70225C424400DFA55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD66D80225C424500DFA55C /* LaunchScreen.storyboard in Resources */,
+				2DD66D7D225C424500DFA55C /* Assets.xcassets in Resources */,
+				2DD66D7B225C424400DFA55C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD66D84225C424500DFA55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DD66D6E225C424400DFA55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD66D78225C424400DFA55C /* ViewController.swift in Sources */,
+				2DD66D76225C424400DFA55C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD66D82225C424500DFA55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD66D8B225C424500DFA55C /* chillycalls2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DD66D88225C424500DFA55C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DD66D71225C424400DFA55C /* chillycalls2 */;
+			targetProxy = 2DD66D87225C424500DFA55C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DD66D79225C424400DFA55C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DD66D7A225C424400DFA55C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DD66D7E225C424500DFA55C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DD66D7F225C424500DFA55C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DD66D8D225C424500DFA55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DD66D8E225C424500DFA55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DD66D90225C424500DFA55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N69W52PAW2;
+				INFOPLIST_FILE = chillycalls2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.us.chillycallsthing.chillycalls2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DD66D91225C424500DFA55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N69W52PAW2;
+				INFOPLIST_FILE = chillycalls2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.us.chillycallsthing.chillycalls2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DD66D93225C424500DFA55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N69W52PAW2;
+				INFOPLIST_FILE = chillycalls2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.us.chillycallsthing.chillycalls2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chillycalls2.app/chillycalls2";
+			};
+			name = Debug;
+		};
+		2DD66D94225C424500DFA55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N69W52PAW2;
+				INFOPLIST_FILE = chillycalls2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.us.chillycallsthing.chillycalls2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chillycalls2.app/chillycalls2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DD66D6D225C424400DFA55C /* Build configuration list for PBXProject "chillycalls2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD66D8D225C424500DFA55C /* Debug */,
+				2DD66D8E225C424500DFA55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD66D8F225C424500DFA55C /* Build configuration list for PBXNativeTarget "chillycalls2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD66D90225C424500DFA55C /* Debug */,
+				2DD66D91225C424500DFA55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD66D92225C424500DFA55C /* Build configuration list for PBXNativeTarget "chillycalls2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD66D93225C424500DFA55C /* Debug */,
+				2DD66D94225C424500DFA55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DD66D6A225C424400DFA55C /* Project object */;
+}
